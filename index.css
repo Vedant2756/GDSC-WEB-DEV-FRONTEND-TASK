@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6f3f1;
+}
+.navbar {
+    background-color: #007d6e;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 5rem;
+    @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    margin-right: 9rem;
+}
+.nav-links li {
+    padding: 0.5rem 1rem;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+}
+.nav-links a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+.search-icon {
+    font-size: 1.2rem;
+}
+main {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+}
+.main-content {
+    flex: 3;
+}
+.featured-article {
+    background-color: #cecece;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    margin-left: 4rem;
+    border-radius: 1rem;
+    margin-right: 5rem;
+    height:21rem;
+}
+
+.featured-article h2 {
+    margin-bottom: 13.5rem;
+}
+.para4
+{
+    font-size:2.5rem;
+}
+.featured-article p {
+    margin-right: 4.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+    line-height: 1rem;
+}
+.Posted{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-left: 4rem;
+    border-radius: 0.5rem;
+    background-color: #007d6e;
+    margin-right: 5rem;
+}
+.Posted h3{
+    margin: 0.5rem 0 0.5rem 1rem;
+    color: white;
+}
+.Posted h5{
+    margin: 0.8rem 0 0.5rem 18rem;
+    text-decoration: underline;
+    color: white;
+    font-weight: 100;
+}
+.posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    margin-right:5rem;
+}
+.post {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    height: 21rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+.post h4{
+margin-bottom: 8rem;
+}
+.post p{
+    margin-left:1rem;
+    margin-bottom: -0.23rem;
+    margin-top: 1.7rem;
+    line-height: 1.1rem;
+}
+.posts1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: -1rem;
+    margin-left: 4rem;
+    margin-right: 5rem;
+    
+}
+.para{
+    font-size: 1.3rem;
+}
+.para1{
+    margin-top:1rem;
+
+}
+.post1{
+    background-color: #f4f4f4;
+    padding: 2rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    height: 21rem;
+
+}
+.post1 p{
+    margin-left:1rem;
+    margin-bottom: -0.23rem;
+    margin-top: 1.7rem;
+    line-height: 1.1rem;
+}
+.post1 h4{
+    margin-bottom:8rem;
+}
+.box3{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-left:-2rem;
+    background-color: #616a69;
+    margin-top: 1rem;
+    height:50%;
+    border-radius: 0.5rem;
+    margin-top:-1.8rem;
+    margin-right:-2rem;
+
+}
+.sidebar {
+    flex: 1;
+    margin-right: 10rem;
+}
+.popular, .category {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+    background-color: #007d6e;
+    border-radius: 0.5rem;
+    margin-top:0.5rem;
+}
+.popular h3, .category h3 {
+    margin: 0.5rem 0 0.5rem 1rem;
+    color: white;
+    text-align: center;
+}
+.popular-post{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+    background-color: #cce5e2;
+    padding : 0.5rem;
+    margin-top:0.5rem;
+    border-radius: 0.5rem;
+}
+.popular-post h5{
+    margin-left: 7rem;
+    margin-top: -0.3rem;
+    text-wrap: nowrap;
+}
+.v1{
+    margin-left: 7rem;
+    margin-top: -1.3rem;
+    font-size: 0.8rem;
+    text-wrap: nowrap;
+}
+.img-p{
+    margin-left: 0rem;
+    background-color: #616a69;
+    border-radius: 0.5rem;
+    margin-right: 12.3rem;
+    height: 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.category p{
+    margin-top:0.5rem;
+}
+.footer {
+    background-color: #007d6e;
+    text-align: center;
+    padding: 0.3rem;
+    color:white;
+}
